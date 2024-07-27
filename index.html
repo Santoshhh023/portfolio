@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/img4.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <h1>HELLO!<br>I'M <span>SANTOSH</span></h1>
+                <p><span>SOFTWARE ENGINEER</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------ABOUT---------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img2.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> ABOUT ME</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quo modi ipsum, odio optio
+                        voluptates illo atque quod, commodi rem libero delectus rerum iste dolores deleniti quos, culpa
+                        officia similique. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora delectus,
+                        odio explicabo illum expedita iusto, neque placeat dolorum aspernatur quisquam quidem sed culpa!
+                        Sunt doloremque cum deserunt at natus accusantium?</p>
+
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                        <!-- <p class="tab-links">skills</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>SOFTWARE ENGINEER</span><br>DESIGN, DEVELOPS AND MAINTAINS SOFTWARE SYSTEMS USING
+                                ENGINEERING PRINCIPLES</li>
+                            <li><span>FULL STACK DEVELOPER</span><br>DESIGN RESPONSIVE WEBSITES
+                                USING<BR>HTML:5<BR>CSS<BR>JAVASCRIPT<BR>REACT<BR>NODE.JS<BR>EXPRESS.JS<BR>DATABASE<BR>API
+                            </li>
+                            <li><span>PYTHON DEVELOPER</span><br>DATA SCIENCE, MACHINE LEARNING AND DATABASE MANAGEMENT
+                            </li>
+                        </ul>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="EXPERIENCE">
+                        <ul>
+                            <li><span>2023</span><br> DEVELOPER INTERNSHIP AT MICROSOFT
+                            </li>
+                            <li><span>2024</span><br>ROBOTICS-HANDS ON TRAINING ON CAMPUS-SUMMER INTERNSHIP-2024
+                                JULY
+                            </li>
+                        </ul>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="EDUCATION">
+                        <ul>
+                            <li><span>2023-2027</span><br>BACHELOR'S OF TECHNOLOGY IN INFORMATION TECHNOLOGY FROM
+                                UNIVERSITY OF SCHOOL OF INFORMATION, COMMUNICATION & TECHNOLOGY, GURU GOBIND SINGH
+                                INDRAPRASTH UNIVERSITY, NEW DELHI DWARKA-110078</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------services-------------------------------->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>SOFTWARE DEVELOPMENT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, incidunt ab rerum alias
+                        suscipit voluptas hic voluptates laudantium dignissimos, aspernatur reprehenderit, illum eum aut
+                        nostrum? Quo sit amet nemoeius!</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>FULL STACK DEVELOPMENT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, incidunt ab rerum alias
+                        suscipit voluptas hic voluptates laudantium dignissimos, aspernatur reprehenderit, illum eum aut
+                        nostrum? Quo sit amet nemoeius!</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON DEVELOPER</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, incidunt ab rerum alias
+                        suscipit voluptas hic voluptates laudantium dignissimos, aspernatur reprehenderit, illum eum aut
+                        nostrum? Quo sit amet nemoeius!</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------Portfolio---------------------->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img3.jpg">
+                    <div class="layer">
+                        <h3>
+                            GOKU
+                        </h3>
+                        <p>MY FAVOURITE CARTOON</p>
+                        <a href="#"><i class="fa-brands fa-python"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.jpg">
+                    <div class="layer">
+                        <h3>
+                            GOKU
+                        </h3>
+                        <p>MY FAVOURITE CARTOON</p>
+                        <a href="#"><i class="fa-brands fa-python"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.jpg">
+                    <div class="layer">
+                        <h3>
+                            GOKU
+                        </h3>
+                        <p>MY FAVOURITE CARTOON</p>
+                        <a href="#"><i class="fa-brands fa-python"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">SEE MORE</a>
+        </div>
+    </div>
+
+
+    <!----------------------------contact------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        CONTACT
+                    </h1>
+                    <p><i class="fas fa-paper-plane"></i> santosh.usict@gmail.com</p>
+                    <p><i class="fas fa-paper-plane"></i>(+91)8745988247</p>
+
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="faf fa-facebook"></i></a>
+
+                        <a href="https://facebook.com/"><i class="faf fa-facebook"></i></a>
+
+                        <a href="https://facebook.com/"><i class="faf fa-facebook"></i></a>
+
+                    </div>
+
+                    <a href="images/2024-05/img7.png" download class="button button2">DOWNLOAD RESUME</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="NAME" placeholder="TYPE YOUR NAME......." required>
+
+                        <input type="email" name="E-MAIL" placeholder="ENTER YOUR E-MAIL" required>
+
+                        <textarea name="MESSAGE" rows="7" placeholder="TYPE YOUR MESSAGE......."></textarea>
+
+                        <button type="submit" class="button button2">SUBMIT</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Santosh Thakur. Made with loveSign </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHTNLil4YlAUuOWeC4JjIJ4Z9npSzAgk9f9EemKaZsVdDfOjUkCc3vdh7Gc-XOOsehwA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const message = document.getElementById("message")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        message.innerHTML = "Message Sent Successfully! Have a nice day! :)"
+                        setTimeout(function(){
+                            message.innerHTML = ""
+                        },7000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+
+    <!-- DEPLOYMENT ID LINK
+AKfycbxHTNLil4YlAUuOWeC4JjIJ4Z9npSzAgk9f9EemKaZsVdDfOjUkCc3vdh7Gc-XOOsehwA -->
+
+</body>
+
+</html>
